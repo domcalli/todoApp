@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  border: solid;
+  width: max-content;
+  /* text-align: center; */
+}
+#list {
+  list-style: none;
+  width: 300px;
+  padding: 0px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.del-btn {
+  margin-left: auto;
+}
